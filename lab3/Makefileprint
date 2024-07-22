@@ -1,0 +1,3 @@
+all:
+	/usr/bin/nasm -g -f elf64 print.s -o print.o
+	/usr/bin/ld -g -static print.o -o print
